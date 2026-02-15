@@ -30,7 +30,7 @@ A small mobile learning app where users play a safety-identification game and tr
 ## 1️⃣ Clone Repository
 
 ```bash
-git clone <https://github.com/Coding4Fun44/Mini-Education-App>
+git clone https://github.com/Coding4Fun44/Mini-Education-App
 cd mini-education-app
 ```
 
@@ -98,8 +98,8 @@ SQLite was chosen over Postgres/Mongo to reduce setup complexity and keep the pr
 - PUT /sessions/:id
   Updates session after game completes.
 
-GET /stats
-Returns aggregated statistics:
+- GET /stats
+  Returns aggregated statistics:
 
 {
 "totalGames": number,
