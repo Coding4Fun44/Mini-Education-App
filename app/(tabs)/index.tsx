@@ -52,7 +52,9 @@ export default function LearnScreen() {
   }
 
   const handleAnswer = (index: number) => {
-    if (selected !== null) return;
+    if (selected !== null) {
+      return;
+    }
 
     const isCorrect = index === question.correctIndex;
 
